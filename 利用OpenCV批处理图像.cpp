@@ -41,7 +41,7 @@ int main()
             
         Mat src = imread(filename);//读取图像
         
-        handle(src);//处理图像
+     Mat output =   handle(src);//处理图像
         
         if (!src.data)
         {
@@ -51,7 +51,7 @@ int main()
         }
 
         sprintf(filename, "%s%d.png", luJing, i);//此处修改输出图像的格式
-        imwrite(filename, src);//输出图像
+        imwrite(filename, output);//输出图像
     }
     waitKey(0);
     return 0;
@@ -59,6 +59,8 @@ int main()
 
 
 Mat handle(Mat src){
-    
+    Mat output;
+ 
+ return output;
 
 }
