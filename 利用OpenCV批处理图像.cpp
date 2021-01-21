@@ -64,3 +64,16 @@ Mat handle(Mat src){
  return output;
 
 }
+
+//裁剪并修改图大小
+/* 
+Mat handle(Mat src){
+    
+    Rect rect(0,50,1440,800);//裁剪图像
+    Mat input=src(rect);
+    Mat output;
+    resize(input, output,Size(1920,1080));//以1920*1080分辨率输出
+    
+    return output;
+}
+*/
