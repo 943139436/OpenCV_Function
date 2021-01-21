@@ -22,7 +22,7 @@ using namespace std;
 char * luJing = "/Users/lhl/Desktop/";//输入图像路径
 const int imageNumber = 9;//输入图像的数量
 
-void handle(Mat src);
+Mat handle(Mat src);
 
 int main()
 {
@@ -58,7 +58,7 @@ int main()
 }
 
 
-void handle(Mat src){
+Mat handle(Mat src){
     
 
 }
